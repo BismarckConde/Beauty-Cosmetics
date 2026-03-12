@@ -1,0 +1,50 @@
+.brands{
+padding:80px 0;
+text-align:center;
+overflow:hidden;
+}
+
+.brands-title{
+font-size:32px;
+margin-bottom:40px;
+}
+
+.brands-title span{
+color:var(--accent-gold);
+}
+
+.brands-slider{
+width:100%;
+overflow:hidden;
+}
+
+.brands-track{
+display:flex;
+gap:60px;
+width:max-content;
+animation:scrollBrands 20s linear infinite;
+align-items:center;
+}
+
+.brand-logo{
+width:120px;
+opacity:0.8;
+transition:0.3s;
+}
+
+.brand-logo:hover{
+opacity:1;
+transform:scale(1.1);
+}
+
+@keyframes scrollBrands{
+
+from{
+transform:translateX(0);
+}
+
+to{
+transform:translateX(-50%);
+}
+
+}

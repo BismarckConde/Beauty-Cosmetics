@@ -1,0 +1,67 @@
+.footer-section {
+  background-color: var(--card-bg);
+  padding: 4rem 5% 1rem;
+  margin-top: 4rem;
+  border-top: 1px solid rgba(106, 48, 88, 0.1);
+  transition: background-color var(--transition-speed) ease;
+}
+
+html.dark .footer-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-content {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.footer-content h2 {
+  font-size: 1.8rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.footer-content p {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+}
+
+.social a:hover {
+  background-color: var(--accent-pink);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(106, 48, 88, 0.1);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+html.dark .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}

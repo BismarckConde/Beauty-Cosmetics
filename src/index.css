@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* --- MODO CLARO (Snow & Rose) --- */
+  --bg-main: #FFFAFA;          /* Snow White */
+  --bg-secondary: #FEF5F7;     /* Soft Blush */
+  --brand-primary: #E881A2;    /* Rose Pink */
+  --luxury-accent: #D4AF37;    /* Champagne Gold */
+  --text-main: #2D1B33;        /* Deep Plum */
+  --text-muted: #705294;       /* Muted Lavender */
+  
+  --shadow-sm: 0 4px 12px rgba(45, 27, 51, 0.05);
+  --shadow-md: 0 10px 30px rgba(45, 27, 51, 0.08);
+  --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html.dark {
+  /* --- MODO OSCURO (Midnight Plum) --- */
+  --bg-main: #1A121F;          /* Midnight Plum */
+  --bg-secondary: #251B2B;     /* Deep Charcoal */
+  --brand-primary: #FFB6C1;    /* Pastel Pink */
+  --luxury-accent: #F9D976;    /* Bright Gold */
+  --text-main: #F8F9FA;        /* Off-White */
+  --text-muted: #C5A0A9;       /* Dusty Rose */
+  
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  transition: background-color 0.4s ease, color 0.4s ease;
+  line-height: 1.6;
+}
+
+/* --- Mejoras de Selección --- */
+::selection {
+  background-color: var(--brand-primary);
+  color: white;
+}
+
+/* --- Animaciones Profesionales --- */
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-view {
+  animation: fadeInSlide 0.8s ease forwards;
+}
