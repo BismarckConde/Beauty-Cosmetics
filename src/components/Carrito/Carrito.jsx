@@ -40,7 +40,7 @@ const mensaje = carrito
 .join("%0A")
 
 const linkWhatsApp =
-`https://wa.me/50500000000?text=Hola quiero comprar:%0A${mensaje}%0ATotal: C$${total}`
+`https://wa.me/50586746974?text=Hola quiero comprar:%0A${mensaje}%0ATotal: C$${total}`
 
 return(
 
