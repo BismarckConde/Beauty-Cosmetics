@@ -5,6 +5,8 @@ import ushas from "../../assets/marcas/USHAS.png"
 import sas from "../../assets/marcas/SAS.png"
 import bioaqua from "../../assets/marcas/BIOAQUA.png"
 import vinilady from "../../assets/marcas/VINILADY.png"
+import beauvisage from "../../assets/marcas/logobeauvisage.png"
+import beautycreation from "../../assets/marcas/logobeautycreations.png"
 
 const Marcas = () => {
 
@@ -13,7 +15,9 @@ ruby,
 ushas,
 sas,
 bioaqua,
-vinilady
+vinilady,
+beauvisage,
+beautycreation
 ]
 
 return (

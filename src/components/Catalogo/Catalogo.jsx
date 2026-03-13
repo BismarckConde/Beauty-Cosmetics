@@ -23,30 +23,42 @@ import toallasdesmaquiUSHAS from "../../assets/productos/toallasdesmaquillantesU
 import tonicoacidoSAS from "../../assets/productos/tonicoconacidoSAS.webp"
 import tonicocolagenoSAS from "../../assets/productos/tonicoconcolagenoSAS.webp"
 import tonicomanzanillaSAS from "../../assets/productos/tonicoconmanzanillaSAS.webp"
+import ruboriluminadores from "../../assets/productos/ruboreiluminadorbeauvisage.PNG"
+import primerhidratante from "../../assets/productos/primerhidratantebeauvisage.PNG"
+import polvobanana from "../../assets/productos/polvobananabeautycreation.PNG"
+import ilunimadoresbeutycreation from "../../assets/productos/iluminadoresbeautycreation.PNG"
+import fijadoracabadomatte from "../../assets/productos/fijadoracabadomattebeauvisage.PNG"
+import correctornuevaformulabeauvisage from "../../assets/productos/correctornuevaformulabeuvisage.PNG"
 
 const Catalogo = () => {
 
 const productos = [
-    { id:1, nombre:"Agua Micelar", marca:"Vini Lady", precio:110, img:aguamicelarVINI },
+    { id:1, nombre:"Agua Micelar", marca:"VINI LADY", precio:110, img:aguamicelarVINI },
     { id:2, nombre:"Bloqueador Solar", marca:"USHAS", precio:220, img:bloqueadorsolaUSHAS },
     { id:3, nombre:"Contorno de Ojeras", marca:"USHAS", precio:90, img:contornoojeraUSHAS },
     { id:4, nombre:"Crema de Manos", marca:"USHAS", precio:70, img:cremamanosUSHAS },
     { id:5, nombre:"Crema Facial", marca:"USHAS", precio:100, img:cremafacialUSHAS },
-    { id:6, nombre:"Difuminadores de Maquillaje", marca:"Ruby Face", precio:20, img:difuminadoresRUBY },
+    { id:6, nombre:"Difuminadores de Maquillaje", marca:"RUBY FACE", precio:20, img:difuminadoresRUBY },
     { id:7, nombre:"Espuma Facial", marca:"USHAS", precio:90, img:espumafacialUSHAS },
-    { id:8, nombre:"Kit Beauty Tools", marca:"Ruby Face", precio:100, img:kitbeutytoolsRUBY },
-    { id:9, nombre:"Kit Tools", marca:"Ruby Face", precio:120, img:kittoolsRUBY },
+    { id:8, nombre:"Kit Beauty Tools", marca:"RUBY FACE", precio:100, img:kitbeutytoolsRUBY },
+    { id:9, nombre:"Kit Tools", marca:"RUBY FACE", precio:120, img:kittoolsRUBY },
     { id:10, nombre:"Limpiador Facial Rosas", marca:"USHAS", precio:100, img:limpiadorfacialUSHAS },
     { id:11, nombre:"Lip Oil juicy glass", marca:"USHAS", precio:100, img:lipoilUSHAS },
     { id:12, nombre:"Lip Serum", marca:"USHAS", precio:90, img:lipserumUSHAS },
-    { id:13, nombre:"Parche de Ojos", marca:"Bioaqua", precio:110, img:parcheojoBIOAQUA },
+    { id:13, nombre:"Parche de Ojos", marca:"BIOAQUA", precio:110, img:parcheojoBIOAQUA },
     { id:14, nombre:"Serum Facial", marca:"USHAS", precio:170, img:serumpresentacionesUSHAS },
-    { id:15, nombre:"Set Aro", marca:"Ruby Face", precio:150, img:setaroRUBY },
-    { id:16, nombre:"Set Bandana", marca:"Ruby Face", precio:130, img:setbanddanaRUBY },
+    { id:15, nombre:"Set Aro", marca:"RUBY FACE", precio:150, img:setaroRUBY },
+    { id:16, nombre:"Set Bandana", marca:"RUBY FACE", precio:130, img:setbanddanaRUBY },
     { id:17, nombre:"Toallas Desmaquillantes", marca:"USHAS", precio:80, img:toallasdesmaquiUSHAS },
     { id:18, nombre:"Tónico Ácido Hialurónico", marca:"SAS", precio:110, img:tonicoacidoSAS },
     { id:19, nombre:"Tónico Colágeno", marca:"SAS", precio:110, img:tonicocolagenoSAS },
-    { id:20, nombre:"Tónico Manzanilla", marca:"SAS", precio:110, img:tonicomanzanillaSAS }
+    { id:20, nombre:"Tónico Manzanilla", marca:"SAS", precio:110, img:tonicomanzanillaSAS },
+    { id:21, nombre:"Rubor e iluminadores en barra", marca:"BEAU VISAGE", precio:200, img:ruboriluminadores},
+    { id:22, nombre:"Iluminadores", marca:"BEAUTY CREATIONS", precio:300, img:ilunimadoresbeutycreation},
+    { id:23, nombre:"Fijador Acabado Matte", marca:"BEAU VISAGE", precio:150, img:fijadoracabadomatte},
+    { id:24, nombre:"Polvo Banana", marca:"BEAUTY CREATIONS", precio:200, img:polvobanana},
+    { id:25, nombre:"Primer Hidratante", marca:"BEAU VISAGE", precio:100, img:primerhidratante},
+    { id:26, nombre:"Corrector Nueva Fórmula", marca:"BEAU VISAGE", precio:160, img:correctornuevaformulabeauvisage}
 ]
 
 

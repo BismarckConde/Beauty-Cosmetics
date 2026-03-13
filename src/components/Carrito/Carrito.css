@@ -98,3 +98,25 @@ transition:0.3s;
 background:#1ebe5b;
 }
 
+/* Forzar texto oscuro dentro del carrito incluso en modo oscuro */
+
+html.dark .cart-panel{
+background:#ffffff;
+color:#222;
+}
+
+html.dark .cart-panel *{
+color:#222;
+}
+
+html.dark .cart-header{
+background:#ffffff;
+}
+
+html.dark .cart-items{
+background:#ffffff;
+}
+
+html.dark .cart-footer{
+background:#ffffff;
+}
