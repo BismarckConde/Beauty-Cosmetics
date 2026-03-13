@@ -73,6 +73,16 @@
 
 /* --- RESPONSIVE --- */
 @media (max-width: 768px) {
+  .navbar-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  body{
+    padding-top: 80px;
+  }
 
   .mobile-open {
     display: block;
