@@ -61,8 +61,8 @@ const productos = [
     { id:24, nombre:"Polvo Banana", marca:"BEAUTY CREATIONS", precio:200, img:polvobanana},
     { id:25, nombre:"Primer Hidratante", marca:"BEAU VISAGE", precio:100, img:primerhidratante},
     { id:26, nombre:"Corrector Nueva Fórmula", marca:"BEAU VISAGE", precio:160, img:correctornuevaformulabeauvisage},
-    { id:27, nombre:"Lip Gloss Más Labial Balm", marca:"KEVIN & COCO", precio:120, img:mascarapestaña},
-    { id:28, nombre:"Máscara de Pestañas", marca:"USHAS", precio:160, img:lipgloskevincoco}
+    { id:27, nombre:"Lip Gloss Más Labial Balm", marca:"KEVIN & COCO", precio:160, img:lipgloskevincoco},
+    { id:28, nombre:"Máscara de Pestañas", marca:"USHAS", precio:120, img:mascarapestaña}
 ]
 
 
