@@ -29,6 +29,8 @@ import polvobanana from "../../assets/productos/polvobananabeautycreation.PNG"
 import ilunimadoresbeutycreation from "../../assets/productos/iluminadoresbeautycreation.PNG"
 import fijadoracabadomatte from "../../assets/productos/fijadoracabadomattebeauvisage.PNG"
 import correctornuevaformulabeauvisage from "../../assets/productos/correctornuevaformulabeuvisage.PNG"
+import mascarapestaña from "../../assets/productos/mascaradepestañasushas.webp"
+import lipgloskevincoco from "../../assets/productos/lipgloskevin.webp"
 
 const Catalogo = () => {
 
@@ -58,7 +60,9 @@ const productos = [
     { id:23, nombre:"Fijador Acabado Matte", marca:"BEAU VISAGE", precio:150, img:fijadoracabadomatte},
     { id:24, nombre:"Polvo Banana", marca:"BEAUTY CREATIONS", precio:200, img:polvobanana},
     { id:25, nombre:"Primer Hidratante", marca:"BEAU VISAGE", precio:100, img:primerhidratante},
-    { id:26, nombre:"Corrector Nueva Fórmula", marca:"BEAU VISAGE", precio:160, img:correctornuevaformulabeauvisage}
+    { id:26, nombre:"Corrector Nueva Fórmula", marca:"BEAU VISAGE", precio:160, img:correctornuevaformulabeauvisage},
+    { id:27, nombre:"Lip Gloss Más Labial Balm", marca:"KEVIN & COCO", precio:160, img:mascarapestaña},
+    { id:28, nombre:"Máscara de Pestañas", marca:"USHAS", precio:120, img:lipgloskevincoco}
 ]
 
 

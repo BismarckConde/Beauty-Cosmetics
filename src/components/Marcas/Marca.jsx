@@ -7,6 +7,7 @@ import bioaqua from "../../assets/marcas/BIOAQUA.png"
 import vinilady from "../../assets/marcas/VINILADY.png"
 import beauvisage from "../../assets/marcas/logobeauvisage.png"
 import beautycreation from "../../assets/marcas/logobeautycreations.png"
+import kevincoco from "../../assets/marcas/kevincoco.png"
 
 const Marcas = () => {
 
@@ -17,7 +18,8 @@ sas,
 bioaqua,
 vinilady,
 beauvisage,
-beautycreation
+beautycreation,
+kevincoco
 ]
 
 return (
