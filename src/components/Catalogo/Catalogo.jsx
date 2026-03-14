@@ -10,7 +10,7 @@ import cremamanosUSHAS from "../../assets/productos/cremademanosUSHAS.webp"
 import cremafacialUSHAS from "../../assets/productos/cremafacialUSHAS.webp"
 import difuminadoresRUBY from "../../assets/productos/difuminadoresmaquillajeRUBYFACE.webp"
 import espumafacialUSHAS from "../../assets/productos/espumafacialUSHAS.webp"
-import kitbeutytoolsRUBY from "../../assets/productos/kitbeautytoolsRubyFace.webp"
+import baseconprotectorsolarBEUVISAGE from "../../assets/productos/baseprotectorsolarBEAUVISAGE.jpeg"
 import kittoolsRUBY from "../../assets/productos/kittoolsRUBYFACE.webp"
 import limpiadorfacialUSHAS from "../../assets/productos/limpiadorfacialrosasUSHAS.webp"
 import lipoilUSHAS from "../../assets/productos/lipoilUSHAS.webp"
@@ -42,7 +42,7 @@ const productos = [
     { id:5, nombre:"Crema Facial", marca:"USHAS", precio:100, img:cremafacialUSHAS },
     { id:6, nombre:"Difuminadores de Maquillaje", marca:"RUBY FACE", precio:20, img:difuminadoresRUBY },
     { id:7, nombre:"Espuma Facial", marca:"USHAS", precio:90, img:espumafacialUSHAS },
-    { id:8, nombre:"Kit Beauty Tools", marca:"RUBY FACE", precio:100, img:kitbeutytoolsRUBY },
+    { id:8, nombre:"Base con protector Solar", marca:"BEAUVISAGE", precio:300, img:baseconprotectorsolarBEUVISAGE },
     { id:9, nombre:"Kit Tools", marca:"RUBY FACE", precio:120, img:kittoolsRUBY },
     { id:10, nombre:"Limpiador Facial Rosas", marca:"USHAS", precio:100, img:limpiadorfacialUSHAS },
     { id:11, nombre:"Lip Oil juicy glass", marca:"USHAS", precio:100, img:lipoilUSHAS },
@@ -55,12 +55,12 @@ const productos = [
     { id:18, nombre:"Tónico Ácido Hialurónico", marca:"SAS", precio:110, img:tonicoacidoSAS },
     { id:19, nombre:"Tónico Colágeno", marca:"SAS", precio:110, img:tonicocolagenoSAS },
     { id:20, nombre:"Tónico Manzanilla", marca:"SAS", precio:110, img:tonicomanzanillaSAS },
-    { id:21, nombre:"Rubor e iluminadores en barra", marca:"BEAU VISAGE", precio:200, img:ruboriluminadores},
+    { id:21, nombre:"Rubor e iluminadores en barra", marca:"BEAUVISAGE", precio:200, img:ruboriluminadores},
     { id:22, nombre:"Iluminadores", marca:"BEAUTY CREATIONS", precio:300, img:ilunimadoresbeutycreation},
-    { id:23, nombre:"Fijador Acabado Matte", marca:"BEAU VISAGE", precio:150, img:fijadoracabadomatte},
+    { id:23, nombre:"Fijador Acabado Matte", marca:"BEAUVISAGE", precio:150, img:fijadoracabadomatte},
     { id:24, nombre:"Polvo Banana", marca:"BEAUTY CREATIONS", precio:200, img:polvobanana},
-    { id:25, nombre:"Primer Hidratante", marca:"BEAU VISAGE", precio:100, img:primerhidratante},
-    { id:26, nombre:"Corrector Nueva Fórmula", marca:"BEAU VISAGE", precio:160, img:correctornuevaformulabeauvisage},
+    { id:25, nombre:"Primer Hidratante", marca:"BEAUVISAGE", precio:100, img:primerhidratante},
+    { id:26, nombre:"Corrector Nueva Fórmula", marca:"BEAUVISAGE", precio:160, img:correctornuevaformulabeauvisage},
     { id:27, nombre:"Lip Gloss Más Labial Balm", marca:"KEVIN & COCO", precio:160, img:lipgloskevincoco},
     { id:28, nombre:"Máscara de Pestañas", marca:"USHAS", precio:120, img:mascarapestaña}
 ]
@@ -69,7 +69,6 @@ const productos = [
 const [marcaActiva,setMarcaActiva] = useState("Todos")
 const [busqueda,setBusqueda] = useState("")
 const [carritoAbierto,setCarritoAbierto] = useState(false)
-
 const [carrito,setCarrito] = useState(
 JSON.parse(localStorage.getItem("carrito")) || []
 )
